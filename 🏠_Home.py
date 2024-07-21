@@ -101,6 +101,7 @@ if st.sidebar.button("Connect"):
 st.sidebar.subheader("Reset chat history")
 if st.sidebar.button("Reset"):
     st.session_state.conversation = []
+    st.session_state.detailed_conversation = []
     st.rerun()
 
 if not test_connection(HOST + '/api/v1/heartbeat'):
