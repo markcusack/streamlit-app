@@ -45,8 +45,8 @@ def list_table_descriptions(api_url, db_connection_id):
         return None
 
 st.set_page_config(
-    page_title="Dataherald",
-    page_icon="./images/logo.png",
+    page_title="Yellowbrick",
+    page_icon="./images/yellowbrick_logo.png",
     layout="wide",
     initial_sidebar_state="collapsed")
 

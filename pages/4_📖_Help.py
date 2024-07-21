@@ -31,8 +31,8 @@ def get_all_database_connections():
         return {}
 
 st.set_page_config(
-    page_title="Dataherald",
-    page_icon="./images/logo.png",
+    page_title="Yellowbrick",
+    page_icon="./images/yellowbrick_logo.png",
     layout="wide")
 
 HOST = st.session_state["HOST"]
